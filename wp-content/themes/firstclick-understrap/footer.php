@@ -19,7 +19,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<div class="col-md-12">
 					<footer class="site-footer" id="colophon">
 						<div class="site-info">
-							&copy; <?php echo date( 'Y' ) . ' ' . get_bloginfo( 'name' ); ?> | Web Development by <a href="https://www.firstclickinc.com/" rel="nofollow" target="_blank">First Click, Inc.</a>
+							&copy; <?php echo date( 'Y' ) . ' ' . get_bloginfo( 'name' ); ?> | Web Development by <a href="https://www.firstclickinc.com/" rel="nofollow" target="_blank">First Click, Inc. TEST</a>
 						</div><!-- /.site-info -->
 					</footer><!-- /#colophon -->
 				</div><!-- /.col -->
