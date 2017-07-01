@@ -7,9 +7,9 @@ $ git remote add origin git@github.com:firstclickinc/firstclick
 $ git pull origin master
 
 Rename the placeholder.gitignore file to ".gitignore" 
+$ mv placeholder.gitignore .gitignore
 
 Then, open your wp-config.php file and edit the first lines:
-
 define( 'DB_NAME', 'wp_firstclick' );
 define( 'DB_USER', 'your_user' );
 define( 'DB_PASSWORD', 'your_password' );
@@ -25,7 +25,11 @@ $ git commit -m "initial commit"
 
 Connect to Database
 -------------------
-Import wp_firstclick.sql as a new database. You can use phpMyAdmin or mysql from you command line. Test your connection by visiting your working directory. You should delete this file from your repositry when it is added.
+Import wp_firstclick.sql into a new database. You can use phpMyAdmin or mysql from you command line. Be sure to setup your database first, then import the wp_firstclick.sql into it (the namse do not have to match, but be sure to match it to the name you set in your wp-config.php file). Test your connection by visiting your working directory. Delete this file from your repositry once your database is set up.
+
+$ rm wp_firstclick.sql
+$ git add --all
+$ git commit -m "deleted sql"
 
 
 Connect to Remotes
