@@ -1,4 +1,4 @@
-This is the master version of the firstclick repository for use in your local instance of Wordpress. You'll need to update the placeholder.gitignore and wp-config.php files and import the database.
+This is the master version of the firstclick repository for use in your local instance of Wordpress. In order to set it up, you'll be updating the placeholder.gitignore and wp-config.php files, and importing the database to your local server.
 
 
 Initial Setup
