@@ -2,11 +2,11 @@
 # Localhost Configuration
 //----------------------------------------------------------//
 define( 'DB_NAME', 'snapshot_firstclick' );
-define( 'DB_USER', 'josh' );
-define( 'DB_PASSWORD', 'f73j@j8Fn)' );
+define( 'DB_USER', 'your_user' );
+define( 'DB_PASSWORD', 'your_password' );
 define( 'DB_HOST', 'localhost' );
-define( 'WP_SITEURL', 'http://localhost:8888/firstclick' );
-define( 'WP_HOME', 'http://localhost:8888/firstclick' );
+define( 'WP_SITEURL', 'http://localhost/your_workingdirectorypath' );
+define( 'WP_HOME', 'http://localhost/your_workingdirectorypath' );
 //----------------------------------------------------------//
 
 
