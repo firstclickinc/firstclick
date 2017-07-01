@@ -6,10 +6,12 @@ $ git init
 $ git remote add origin git@github.com:firstclickinc/firstclick
 $ git pull origin master
 
-Rename the placeholder.gitignore file to ".gitignore" 
+Rename the placeholder.gitignore file to ".gitignore"
+
 $ mv placeholder.gitignore .gitignore
 
 Then, open your wp-config.php file and edit the first lines:
+
 define( 'DB_NAME', 'wp_firstclick' );
 define( 'DB_USER', 'your_user' );
 define( 'DB_PASSWORD', 'your_password' );
