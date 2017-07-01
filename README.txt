@@ -1,5 +1,6 @@
 This is the master version of the firstclick repository for use in your local instance of Wordpress. You'll need to update the placeholder.gitignore and wp-config.php files and import the database.
 
+
 Initial Setup
 -------------
 $ git init
@@ -27,7 +28,7 @@ $ git commit -m "initial commit"
 
 Connect to Database
 -------------------
-Import wp_firstclick.sql into a new database. You can use phpMyAdmin or mysql from you command line. Be sure to setup your database first, then import the wp_firstclick.sql into it (the namse do not have to match, but be sure to match it to the name you set in your wp-config.php file). Test your connection by visiting your working directory. Delete this file from your repositry once your database is set up.
+Import wp_firstclick.sql into a new database. You can use phpMyAdmin or mysql from you command line. Be sure to setup your database first, then import the wp_firstclick.sql into it (the names do not have to match, but be sure to match it to the name you set in your wp-config.php file). Test your connection by visiting your working directory. Delete this file from your repositry once your database is set up.
 
 $ rm wp_firstclick.sql
 $ git add --all
