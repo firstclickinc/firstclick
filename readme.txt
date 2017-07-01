@@ -5,8 +5,6 @@ Initial Setup
 $ git init
 $ git remote add origin git@github.com:firstclickinc/firstclick
 $ git pull origin master
-$ git add --all
-$ git commit -m "initial commit"
 
 Rename the placeholder.gitignore file to ".gitignore" 
 
@@ -20,3 +18,6 @@ define( 'WP_SITEURL', 'http://localhost/your_workingdirectorypath' );
 define( 'WP_HOME', 'http://localhost/your_workingdirectorypath' );
 
 NOTE: the WP_SITEURL and WP_HOME require http:// to work. Update this URL to be your local instance of Wordpress where you plan to do local development (this should be your working directory). If using a port (ie localhost:8888) include that in the URL as well.
+
+$ git add --all
+$ git commit -m "initial commit"
