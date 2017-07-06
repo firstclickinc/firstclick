@@ -40,8 +40,20 @@ Connect to Remotes
 $ git remote add production git@git.wpengine.com:production/firstclick.git
 $ git remote add staging git@git.wpengine.com:staging/firstclick.git
 
-Sync with the most current version or the version that is being developed.
+Sync with the most current version or the version that is being developed. In the example below, change "staging" to "production" if that is the most current version.
 
-$ git pull ______ master
+$ git pull staging master
 $ git add --all
 $ git commit -m "syncing versions"
+
+To push your changes, use these commands.
+
+$ git push staging master
+OR
+$ git push produciton master
+
+NOTE: If files say they are too large, check that you have your .gitignore file set up properly. If it is, try this command then push again.
+
+$ git rm -rf --cached .
+$ git add --all
+$ git commit -m "cleared cache"
