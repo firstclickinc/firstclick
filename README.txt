@@ -37,8 +37,8 @@ $ git commit -m "deleted sql"
 
 Connect to Remotes
 ------------------
-$ git remote add production git@github.wpengine.com:production/firstclick.git
-$ git remote add staging git@github.wpengine.com:staging/firstclick.git
+$ git remote add production git@git.wpengine.com:production/firstclick.git
+$ git remote add staging git@git.wpengine.com:staging/firstclick.git
 
 Sync with the most current version or the version that is being developed.
 
